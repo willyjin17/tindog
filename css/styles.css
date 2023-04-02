@@ -1,0 +1,182 @@
+body{
+    font-family: Montserrat;
+}
+
+
+h1{
+    font-family: Montserrat-Black ;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    size: 1.5rem;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+
+/* NAVBAR  */
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 7% 17%;
+}
+
+.navbar{
+    padding: 0 1rem 4.5rem 0;
+}
+
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    font-size: 1rem;
+    padding: 0 18px;
+}
+
+
+.iphone{
+    rotate: 25deg;
+    width: 25%;   
+    position: absolute;
+    right: 20%;
+
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+@media(max-width:991px){
+    .iphone{
+        rotate: 0deg;
+        position: static;
+        right: 0%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* FEATURES  */
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.features-icon{
+    color: #ef8172; 
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* TESTIMONIALS  */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* PRESS */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+
+
+/* PRICING  */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+
+/* CTA */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-icon{
+    margin: 20px;
+}
+
+.cta-head{
+    font-size: 3.5rem;
+}
+
+
+/* FOOTER  */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon{
+    padding: 20px 10px;
+}
